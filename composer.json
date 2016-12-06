@@ -1,6 +1,6 @@
 {
-  "name": "MTechLLC/drupal-8",
-  "description": "Basic Drupal 8 Install",
+  "name": "MTechLLC/touroperador",
+  "description": "Site for Tour Operador",
   "type": "project",
   "repositories": [
     {
