@@ -5,3 +5,8 @@ size: 16x12
 path: 'modules/contrib/languageicons/flags/*.png'
 _core:
   default_config_hash: cpiebjeL5BJQM1KnuVUE-HxHiY-5OM6jfuhD1-SLNU0
+show: null
+actions: null
+form_build_id: form-r5BWkeuz-wMF7Gw-lY-uHq87UMhhwTfo6znmpDyM9co
+form_token: '-4eQGS9p8rtOEx5YaIykzKZJU01vWWjdfJuiVTI2BXU'
+form_id: languageicons_settings
