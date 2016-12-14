@@ -4,6 +4,7 @@
 # machine name, and IP address for each instance.
 vagrant_hostname: touroperador.dev
 vagrant_machine_name: touroperador
+vagrant_ip: 0.0.0.0
 
 # Set 'build_makefile' to 'false' and this to 'true' if you are using a
 # composer based site deployment strategy.
@@ -53,7 +54,7 @@ installed_extras:
   # - redis
   # - ruby
   # - selenium
-  - solr
+  # - solr
   - varnish
   - xdebug
   # - xhprof
@@ -72,8 +73,7 @@ php_output_buffering: "Off"
 # Run specified scripts before or after VM is provisioned. Path is relative to
 # the `provisioning/playbook.yml` file.
 pre_provision_scripts: []
-post_provision_scripts:
-  - "{{ config_dir }}/scripts/drupalvm/post-provision.sh"
+post_provision_scripts: []
 
 # MySQL Configuration.
 mysql_max_allowed_packet: 512M
