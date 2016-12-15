@@ -1,5 +1,6 @@
 # Generated files
-css
-node_modules
-bootstrap
-pattern-lab
+/css
+/bootstrap
+/images
+/js
+bower_components
