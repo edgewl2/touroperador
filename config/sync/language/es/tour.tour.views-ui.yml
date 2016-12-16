@@ -22,11 +22,11 @@ tips:
     label: 'Acciones de filtrado'
     body: 'Añadir, reordenar o eliminar filtros.'
   views-ui-sorts:
-    label: 'Criterio de ordenación'
+    label: 'Criterios de ordenación'
     body: 'Controla el orden en que los resultados son mostrados. Haga clic en una regla de clasificación activa para configurarla.'
   views-ui-sorts-operations:
     label: 'Actiones de ordenamiento'
-    body: 'Añadir, reordenar o eliminar reglas de ordenamiento.'
+    body: 'Añadir, reordenar o eliminar reglas de ordenación.'
   views-ui-preview:
     label: Previsualizar
     body: 'Mostrar una vista previa de la salida de la vista.'
