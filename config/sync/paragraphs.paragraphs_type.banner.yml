@@ -1,7 +1,7 @@
-uuid: 94551d53-e9ee-4866-9e36-80ec7416fe57
+uuid: 2b373730-8fe9-4f45-b7a0-f065d0c283e1
 langcode: en
 status: true
 dependencies: {  }
-id: image
-label: Image
+id: banner
+label: Banner
 behavior_plugins: {  }
