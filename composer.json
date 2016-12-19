@@ -45,6 +45,7 @@
     "drupal/simple_sitemap": "2.x-dev",
     "drupal/smart_trim": "1.x-dev",
     "drupal/twig_tweak": "~1",
+    "drupal/layout_plugin": "1.x-dev",
     "drupal/video_embed_field": "~1",
     "drush/config-extra": "~1",
     "drush/drush": "~8",
