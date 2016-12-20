@@ -39,6 +39,15 @@
         'links': menu_links,
         'attributes': menu_attributes.addClass(menu_classes),
       } only %}
+
+			{%
+			set languages_classes = [
+			"pull-right",
+			]
+			%}
+			{% include 'molecules-block-language-switch.html' with {
+			'attributes': menu_attributes.addClass(languages_classes),
+      } only %}
     </div>
   {% if not navbar_attributes.hasClass('container') %}
   </nav>
