@@ -34,7 +34,8 @@
         "pattern-lab/patternengine-twig": "^2.0.0",
         "pattern-lab/styleguidekit-twig-default": "^3.0.0",
         "pattern-lab/drupal-twig-components": "^2.0.0",
-        "aleksip/plugin-data-transform": "^1.0.0"
+        "aleksip/plugin-data-transform": "^1.0.0",
+        "cweagans/composer-patches": "~1"
     },
     "scripts": {
         "server": "php core/console --server",
@@ -70,6 +71,11 @@
                 "aleksip/starterkit-shila-drupal-theme",
                 "forumone/starterkit-twig-drupal-gesso"
             ]
+        },
+        "patches": {
+            "aleksip/plugin-data-transform": {
+                "Adds Url object": "https://patch-diff.githubusercontent.com/raw/aleksip/plugin-data-transform/pull/11.patch"
+            }
         }
     },
     "config" : {

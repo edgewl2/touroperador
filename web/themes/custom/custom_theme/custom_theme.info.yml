@@ -25,7 +25,7 @@ libraries:
 
 # For compatibility with Pattern Lab templates; this list must
 # always be the folders immediately under the `$sourceDir` patterns folder
-# `$sourceDir` = defined in `pattern-lab/config/config.yml` under `sourceDir
+# `$sourceDir` = defined in `patternlab/config/config.yml` under `sourceDir
 # patterns folder = `$sourceDir` + `_patterns/`
 component-libraries:
   atoms:
