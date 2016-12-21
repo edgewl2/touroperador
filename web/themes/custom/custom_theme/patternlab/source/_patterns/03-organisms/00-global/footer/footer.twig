@@ -1,27 +1,4 @@
-{# Footbar#}
-{%
-  set footbar_classes = [
-  'footbar',
-]
-%}
-<footer{{ footbar_attributes.addClass(footbar_classes) }} id="footbar" role="contentinfo">
-  {% if not footbar_attributes.hasClass('container') %}
-  <nav class="{{ container }}">
-  {% endif %}
-    <div class="footbar-footer">
-      {%
-    set footer_classes = [
-        'list-unstyled',
-        'list-inline',
-        ]
-      %}
-      {% include 'molecules-links.html' with {
-        'links': footbar_links,
-        'attributes': menu_attributes.addClass(footer_classes),
-      } only %}
-    </div>
-  {% if not footbar_attributes.hasClass('container') %}
-  </nav>
-  {% endif %}
-
+{# Footer #}
+<footer class="footer {{ container }}" role="contentinfo">
+  {{ footer }}
 </footer>

@@ -1,47 +1,50 @@
 {
   "container": "container",
-  "footbar_attributes": {
-    "Attribute()": {
-      "class": ["footerbar"]
-    }
-  },
-  "footer_attributes": {
-    "Attribute()": {}
-  },
-  "footer_links": {
-    "home": {
-      "link": "<a class=\"footbar-brand\" href=\"#\">Contact</a>",
-      "attributes": {
-        "Attribute()": {}
-      }
-    }
-  },
-  "menu_attributes": {
-    "Attribute()": {}
-  },
-  "footbar_links": {
-    "facebook": {
-      "link": "<a href=\"#\">Facebook</a>",
-      "attributes": {
-        "Attribute()": {}
-      }
-    },
-    "twitter": {
-      "link": "<a href=\"#\">Twitter</a>",
-      "attributes": {
-        "Attribute()": {}
-      }
-    },
-    "youtube": {
-      "link": "<a href=\"#\">YouTube</a>",
-      "attributes": {
-        "Attribute()": {}
-      }
-    },
-    "instagram": {
-      "link": "<a href=\"#\">Instagram</a>",
-      "attributes": {
-        "Attribute()": {}
+  "footer": {
+    "include()": {
+      "pattern": "molecules-menu.html",
+      "with": {
+        "items": [
+          {
+            "title": "Facebook",
+            "url": {
+              "Url()": {
+                "url": "#",
+                "options": {
+                  "attributes": {
+                    "class": "fa fa-facebook"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "title": "Instagram",
+            "url": {
+              "Url()": {
+                "url": "#",
+                "options": {
+                  "attributes": {
+                    "class": "fa fa-instagram"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "title": "Twitter",
+            "url": {
+              "Url()": {
+                "url": "#",
+                "options": {
+                  "attributes": {
+                    "class": "fa fa-twitter"
+                  }
+                }
+              }
+            }
+          }
+        ]
       }
     }
   }

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1be84baefaa98120c2b3ea35224711c8",
-    "content-hash": "c36548226a782957942ee11af1ccf97e",
+    "hash": "22f1cffd9ae889cd47699dcc016f8e44",
+    "content-hash": "73fdb49430e66d253c8976864ec34e51",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2632,56 +2632,6 @@
             "time": "2016-11-16 22:47:43"
         },
         {
-            "name": "drupal/layout_plugin",
-            "version": "dev-1.x",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/layout_plugin",
-                "reference": "a0a5ee04d162b90b690a09d1db29d541e9d2773c"
-            },
-            "require": {
-                "drupal/core": "~8.0"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.0-alpha22+11-dev",
-                    "datestamp": "1475519939"
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "David Snopek",
-                    "homepage": "https://www.drupal.org/user/172527"
-                },
-                {
-                    "name": "Bram Goffings",
-                    "homepage": "https://www.drupal.org/user/266527"
-                },
-                {
-                    "name": "Fredrik Lassen",
-                    "homepage": "https://www.drupal.org/user/243377"
-                }
-            ],
-            "description": "An API module to hold the Drupal 8 plugin manager for layouts.",
-            "homepage": "https://www.drupal.org/project/layout_plugin",
-            "keywords": [
-                "layout",
-                "php"
-            ],
-            "support": {
-                "source": "http://cgit.drupalcode.org/layout_plugin"
-            },
-            "time": "2016-10-03 18:36:43"
-        },
-        {
             "name": "drupal/link_attributes",
             "version": "1.0.0",
             "source": {
@@ -3116,7 +3066,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/paragraphs",
-                "reference": "7aaa294ec7284daebe4eb3d68a6a9ee2f2ad38ca"
+                "reference": "acb90ae7ad5f35f380e0256d611e17833c8c86d7"
             },
             "require": {
                 "drupal/core": "~8.0",
@@ -3137,8 +3087,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0+38-dev",
-                    "datestamp": "1481934183"
+                    "version": "8.x-1.0+42-dev",
+                    "datestamp": "1482285486"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -3168,7 +3118,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/paragraphs"
             },
-            "time": "2016-12-17 00:21:23"
+            "time": "2016-12-21 01:56:14"
         },
         {
             "name": "drupal/pathauto",
@@ -3866,12 +3816,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/geerlingguy/drupal-vm.git",
-                "reference": "cc39a0c9ec01cbde7ae33c81ace887b1f421d1f4"
+                "reference": "da04a1bfa9178cfdfcfa1216a989259c9028f500"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/geerlingguy/drupal-vm/zipball/cc39a0c9ec01cbde7ae33c81ace887b1f421d1f4",
-                "reference": "cc39a0c9ec01cbde7ae33c81ace887b1f421d1f4",
+                "url": "https://api.github.com/repos/geerlingguy/drupal-vm/zipball/da04a1bfa9178cfdfcfa1216a989259c9028f500",
+                "reference": "da04a1bfa9178cfdfcfa1216a989259c9028f500",
                 "shasum": ""
             },
             "type": "vm",
@@ -3897,7 +3847,7 @@
                 "virtual machine",
                 "vm"
             ],
-            "time": "2016-12-18 04:01:30"
+            "time": "2016-12-20 23:21:59"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -3963,28 +3913,28 @@
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "1.3.0",
+            "version": "v1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "2693c101803ca78b27972d84081d027fca790a1e"
+                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/2693c101803ca78b27972d84081d027fca790a1e",
-                "reference": "2693c101803ca78b27972d84081d027fca790a1e",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "^4.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.4-dev"
                 }
             },
             "autoload": {
@@ -4010,7 +3960,7 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2016-11-18 17:47:58"
+            "time": "2016-12-20 10:07:11"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -8694,7 +8644,6 @@
         "drupal/paragraphs": 20,
         "drupal/simple_sitemap": 20,
         "drupal/smart_trim": 20,
-        "drupal/layout_plugin": 20,
         "geerlingguy/drupal-vm": 20,
         "jcalderonzumba/gastonjs": 20
     },
