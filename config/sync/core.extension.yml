@@ -12,6 +12,7 @@ module:
   classy_paragraphs: 0
   color: 0
   comment: 0
+  components: 0
   config: 0
   contact: 0
   content_moderation: 0

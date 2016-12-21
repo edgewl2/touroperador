@@ -72,7 +72,7 @@ gulp.task('bower', function(callback) {
   runSequence(
     'run-bower',
     ['clean-pl-css', 'clean-drupal-css', 'clean-pl-libraries', 'clean-drupal-libraries', 'clean-pl-bootstrap', 'clean-drupal-bootstrap'],
-    ['bootstrap', 'jquery', 'dropzone', 'imagesloaded', 'jquery-colorbox', 'masonry', 'matchHeight'],
+    ['bootstrap', 'jquery', 'dropzone', 'font-awesome', 'imagesloaded', 'jquery-colorbox', 'masonry', 'matchHeight'],
     callback
   );
 });
@@ -91,6 +91,11 @@ gulp.task('dropzone', function() {
   return gulp.src(bowerComponents + '/dropzone/**/*.*', { base: bowerComponents })
     .pipe(gulp.dest(patternlabLibraries))
     .pipe(gulp.dest(drupalLibraries));
+});
+gulp.task('font-awesome', function() {
+    return gulp.src(bowerComponents + '/font-awesome/**/*.*', { base: bowerComponents })
+        .pipe(gulp.dest(patternlabLibraries))
+        .pipe(gulp.dest(drupalLibraries));
 });
 gulp.task('imagesloaded', function() {
   return gulp.src(bowerComponents + '/imagesloaded/**/*.*', { base: bowerComponents })
