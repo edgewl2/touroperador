@@ -1,5 +1,5 @@
 ---
-title: Navigation Bar
+title: Navigation Bar MTech, LLC
 ---
 
 Default navbar
