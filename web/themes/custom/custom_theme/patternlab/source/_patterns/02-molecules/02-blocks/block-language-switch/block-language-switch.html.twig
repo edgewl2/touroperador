@@ -2,11 +2,13 @@
 set languages_classes = [
 	'list-unstyled',
 	'list-inline',
+	'nav',
+	'navbar-nav',
 	'navbar-right'
 ]
 %}
 
 {% include 'molecules-links.html' with {
-	'links':links,
+	'links': links,
 	'attributes': attributes.addClass(languages_classes),
 } only %}
