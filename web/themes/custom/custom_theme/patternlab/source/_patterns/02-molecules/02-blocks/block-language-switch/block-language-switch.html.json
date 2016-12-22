@@ -1,13 +1,13 @@
 {
 	"links": {
 		"en": {
-			"link": "<a href=\"#\">English</a>",
+			"link": "<a href=\"#\"><img src='../../../../images/flags/usa.png'/> English</a>",
 			"attributes": {
 				"Attribute()": {}
 			}
 		},
 		"es": {
-			"link": "<a href=\"#\">Spanish</a>",
+			"link": "<a href=\"#\"><img src='../../../../images/flags/nica.png'/> Spanish</a>",
 			"attributes": {
 				"Attribute()": {}
 			}
