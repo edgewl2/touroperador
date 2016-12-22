@@ -1,7 +1,16 @@
 {
-	"attributes": {
-		"Attribute()": {
-			"class": ["pull-left"]
+	"links": {
+		"en": {
+			"link": "<a href=\"#\">English</a>",
+			"attributes": {
+				"Attribute()": {}
+			}
+		},
+		"es": {
+			"link": "<a href=\"#\">Spanish</a>",
+			"attributes": {
+				"Attribute()": {}
+			}
 		}
 	}
 }
