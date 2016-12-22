@@ -2,7 +2,7 @@
   "container": "container",
   "navbar_attributes": {
     "Attribute()": {
-      "class": ["navbar-inverse"]
+      "class": ["navbar-inverse","navigation-style"]
     }
   },
   "header_attributes": {
@@ -10,9 +10,11 @@
   },
   "header_links": {
     "home": {
-      "link": "<a class=\"navbar-brand\" href=\"#\">Home</a>",
+      "link": "<a class=\"navbar-brand\" href=\"#\"><i class='fa fa-drupal fa-2x'></i></a>",
       "attributes": {
-        "Attribute()": {}
+        "Attribute()": {
+          "class": ["logo-heading"]
+        }
       }
     }
   },
@@ -20,26 +22,32 @@
     "Attribute()": {}
   },
   "menu_links": {
+    "home": {
+      "link": "<a href=\"#\"><i class='fa fa-home'></i> Home</a>",
+      "attributes": {
+        "Attribute()": {}
+      }
+    },
     "tours": {
-      "link": "<a href=\"#\">Tours</a>",
+      "link": "<a href=\"#\"><i class='fa fa-sun-o'></i> Tours</a>",
       "attributes": {
         "Attribute()": {}
       }
     },
     "packages": {
-      "link": "<a href=\"#\">Packages</a>",
+      "link": "<a href=\"#\"><i class='fa fa-shopping-bag'></i> Packages</a>",
       "attributes": {
         "Attribute()": {}
       }
     },
     "additional": {
-      "link": "<a href=\"#\">Additional Services</a>",
+      "link": "<a href=\"#\"><i class='fa fa-buysellads'></i> Additional Services</a>",
       "attributes": {
         "Attribute()": {}
       }
     },
     "reservations": {
-      "link": "<a href=\"#\">Reservations</a>",
+      "link": "<a href=\"#\"><i class='fa fa-clone'></i> Reservations</a>",
       "attributes": {
         "Attribute()": {}
       }
