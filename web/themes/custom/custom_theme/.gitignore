@@ -4,3 +4,4 @@
 /images
 /js
 bower_components
+*.css.map
