@@ -1,4 +1,3 @@
-.center-footer {
-	display: flex;
-	justify-content: center;
+footer {
+	@include text-center-flex();
 }
