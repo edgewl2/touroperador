@@ -17,7 +17,7 @@ var processors = [
 // Source/destinations.
 var source = './patternlab/source/';
 var input = source + 'sass/style.scss';
-var output = source + 'css';
+var output = source + 'css/';
 var bowerComponents = 'bower_components';
 var patternlabLibraries = source + 'libraries';
 var drupalLibraries = '../../../libraries';
@@ -134,11 +134,11 @@ gulp.task('javascript', function() {
 
 // Clean destinations.
 gulp.task('clean-pl-css', function() {
-  return gulp.src(output, {read: false})
+  return gulp.src(output + 'style.css', {read: false})
     .pipe(clean());
 });
 gulp.task('clean-drupal-css', function() {
-  return gulp.src(drupalTheme + output + '/style.css', {read: false})
+  return gulp.src(drupalTheme + 'css/style.css', {read: false})
     .pipe(clean({force: true}));
 });
 gulp.task('clean-pl-libraries', function() {

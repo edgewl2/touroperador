@@ -1,7 +1,16 @@
 {
-	"attributes": {
-		"Attribute()": {
-			"class": ["pull-left"]
+	"links": {
+		"en": {
+			"link": "<a href=\"#\"><img src='../../../../images/flags/usa.png'/> English</a>",
+			"attributes": {
+				"Attribute()": {}
+			}
+		},
+		"es": {
+			"link": "<a href=\"#\"><img src='../../../../images/flags/nica.png'/> Spanish</a>",
+			"attributes": {
+				"Attribute()": {}
+			}
 		}
 	}
 }

@@ -1,9 +1,13 @@
 {%
 set languages_classes = [
-"language-switch",
+	'nav',
+	'navbar-nav',
+	'navbar-right',
+	'language-switch'
 ]
 %}
 
-<div {{ attributes.addClass(languages_classes) }}>
-{% include 'molecules-block--system-menu-block.html' %}
-</div>
+{% include 'molecules-links.html' with {
+	'links': links,
+	'attributes': attributes.addClass(languages_classes),
+} only %}
