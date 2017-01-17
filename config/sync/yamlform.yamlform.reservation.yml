@@ -1,25 +1,20 @@
-uuid: 0a2d860c-ae84-4410-9dbd-1daa60b4128f
+uuid: c80142d4-f595-4f17-aa70-804e3973b2b2
 langcode: en
-status: false
-dependencies:
-  enforced:
-    module:
-      - yamlform_examples
-_core:
-  default_config_hash: RRynLPwRNW2OJBxhn6ohPJGEgM5a_R-RZaXEBw3tdxI
-uid: null
+status: true
+dependencies: {  }
+uid: 1
 template: false
-id: example_wizard
-title: 'Example: Wizard'
-description: 'Example of a multiple step ''wizard'' form.'
-elements: "information:\n  '#title': 'Your Information'\n  '#type': wizard_page\n  '#open': true\n  first_name:\n    '#title': 'First Name'\n    '#type': textfield\n  last_name:\n    '#title': 'Last Name'\n    '#type': textfield\n  gender:\n    '#type': radios\n    '#title': 'Gender'\n    '#options': gender\ncontact:\n  '#title': 'Contact Information'\n  '#type': wizard_page\n  '#open': true\n  email:\n    '#title': Email\n    '#type': email\n  phone:\n    '#title': Phone\n    '#type': tel\n  contact_via_phone:\n    '#type': radios\n    '#title': 'Can we contact you via phone?'\n    '#options': yes_no\nfeedback:\n  '#title': 'Your Feedback'\n  '#type': wizard_page\n  '#open': true\n  comments:\n    '#type': textarea\n"
+id: reservation
+title: Reservation
+description: ''
+elements: "full_name:\n  '#type': textfield\n  '#title': 'Full Name'\n  '#required': true\ne_mail:\n  '#type': email\n  '#title': E-mail\n  '#required': true\ntype_of_tour:\n  '#type': select\n  '#title': 'Type of Tour'\n  '#options': industry\n  '#empty_option': Accounting/Finance\n  '#empty_value': Accounting/Finance\n  '#required': true\ncheck_in_date:\n  '#type': date\n  '#title': 'Check-in date'\n  '#required': true\ncheck_out_date:\n  '#type': date\n  '#title': 'Check-out date'\n  '#required': true\n  '#date_part_order':\n    - year\n    - month\n    - day\n    - minute\nadult:\n  '#type': select\n  '#title': Adult\n  '#options': size\nchildren:\n  '#type': select\n  '#title': Children\n  '#options': size\ndo_you_want_to_say_something_:\n  '#type': textfield\n  '#title': 'Do you want to say something?'\n"
 css: ''
 javascript: ''
 settings:
   page: true
   page_submit_path: ''
   page_confirm_path: ''
-  form_submit_label: Apply
+  form_submit_label: ''
   form_submit_attributes: {  }
   form_exception_message: ''
   form_closed_message: ''
@@ -28,7 +23,7 @@ settings:
   form_prepopulate: false
   form_prepopulate_source_entity: false
   form_novalidate: false
-  form_unsaved: true
+  form_unsaved: false
   form_disable_back: false
   form_autofocus: false
   form_details_toggle: false
@@ -42,14 +37,14 @@ settings:
   wizard_start_label: ''
   wizard_complete: true
   wizard_complete_label: ''
-  preview: 2
+  preview: 0
   preview_next_button_label: ''
   preview_next_button_attributes: {  }
   preview_prev_button_label: ''
   preview_prev_button_attributes: {  }
   preview_message: ''
   draft: false
-  draft_auto_save: true
+  draft_auto_save: false
   draft_button_label: ''
   draft_button_attributes: {  }
   draft_saved_message: ''
