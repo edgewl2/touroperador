@@ -7,7 +7,7 @@ template: false
 id: reservation
 title: Reservation
 description: ''
-elements: "full_name:\n  '#type': textfield\n  '#title': 'Full Name'\n  '#required': true\ne_mail:\n  '#type': email\n  '#title': E-mail\n  '#required': true\ntype_of_tour:\n  '#type': select\n  '#title': 'Type of Tour'\n  '#options': industry\n  '#empty_option': Accounting/Finance\n  '#empty_value': Accounting/Finance\n  '#required': true\ncheck_in_date:\n  '#type': date\n  '#title': 'Check-in date'\n  '#required': true\ncheck_out_date:\n  '#type': date\n  '#title': 'Check-out date'\n  '#required': true\n  '#date_part_order':\n    - year\n    - month\n    - day\n    - minute\nadult:\n  '#type': select\n  '#title': Adult\n  '#options': size\nchildren:\n  '#type': select\n  '#title': Children\n  '#options': size\ndo_you_want_to_say_something_:\n  '#type': textfield\n  '#title': 'Do you want to say something?'\n"
+elements: "name:\n  '#type': flexbox\nfull_name:\n  '#type': textfield\n  '#title': 'Full Name'\n  '#required': true\ne_mail:\n  '#type': email\n  '#title': E-mail\n  '#required': true\ntour_details:\n  '#type': flexbox\n  '#align_items': center\ntype_of_tour:\n  '#type': select\n  '#title': 'Type of Tour'\n  '#options': tour_types\n  '#required': true\ncheck_in_date:\n  '#type': date\n  '#title': 'Check-in date'\n  '#required': true\ncheck_out_date:\n  '#type': date\n  '#title': 'Check-out date'\n  '#required': true\n  '#date_part_order':\n    - year\n    - month\n    - day\n    - minute\nadults:\n  '#type': textfield\n  '#title': Adults\nchildren:\n  '#type': textfield\n  '#title': Children\nmessage:\n  '#type': flexbox\n  '#align_items': flex-end\n  ask_something:\n    '#type': textfield\n    '#title': 'Do you want to ask something?'\n"
 css: ''
 javascript: ''
 settings:
